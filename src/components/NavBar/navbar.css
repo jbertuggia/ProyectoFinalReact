@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+.customnavbar {
+    background-image:url(../../../public/img/banner.jpg) ;
+    background-size: cover;
+}
+
+.customlogo {
+    width: 100px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.customlogo img {
+    width: 100%;
+}
+
+.customnavbar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "teko";
+    border-right: 1px solid white;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.customnavbar li:hover {
+    animation: pulse;
+    animation-duration: 1s;   
+}
+
+.cartWidgetNumber {
+    color: white;
+    font-size: 20px; 
+}
+
+.cartLink {
+    margin-right: 20px;
+}

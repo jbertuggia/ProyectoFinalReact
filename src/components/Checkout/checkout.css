@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+
+.custom-container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px 0px 20px 5px #000000;
+    border: 1px;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    margin: 40px;
+}
+
+.custom-form h1 {
+    text-align: center;
+    font-family: "teko";
+}
+
+.custom-form h3 {
+    text-align: center;
+    font-family: "teko";
+}
+
+.custom-form input {
+    margin-bottom: 10px;
+}
+
+
+.cust-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cust-button button {
+    border: 1px;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    font-family: "teko";
+    font-size: 25px;
+}
+
+.cust-button button:hover {
+    background-color: rgb(138, 43, 226);
+    color: white;
+}
