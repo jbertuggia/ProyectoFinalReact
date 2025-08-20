@@ -31,7 +31,7 @@ const ItemDetail = ({ product }) => {
           <img src={currentImage} />
           <div className="flex-detail-text">
             <h3>{product.name}</h3>
-            <p>{product.description}</p>
+            <p className="productDescription">{product.description}</p>
             <p>Stock: {product.stock}</p>
             <h5>Precio: US$ {product.price}</h5>
             {

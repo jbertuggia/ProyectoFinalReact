@@ -12,13 +12,14 @@ const Footer = () => {
                 <img src="./img/nvidia.gif" alt="" />
                 <img src="./img/corsair.gif" alt="" />
                 <img src="./img/radeon.gif" alt="" />
-
             </div>
+
             <div className="custom-info-container">
                 <div className="custom-info">
                     <i className="bi text-white bi-instagram fs-5"></i>
                     <p>Pc Lux</p>
                 </div>
+                
                 <div className="custom-info">
                     <i className="bi text-white bi-envelope-at fs-5"></i>
                     <p>pclux@gmail.com</p>

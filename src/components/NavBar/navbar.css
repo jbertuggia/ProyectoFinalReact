@@ -2,13 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
 
 .customnavbar {
-    background-image:url(../../../public/img/banner.jpg) ;
+    background-image: url(../../../public/img/banner.jpg);
     background-size: cover;
 }
 
 .customlogo {
     width: 100px;
-    margin-left: 80px;
     margin-bottom: 15px;
     margin-top: 15px;
 }
@@ -25,18 +24,55 @@
     border-right: 1px solid white;
     height: 40px;
     margin-right: 50px;
+    
 }
 
 .customnavbar li:hover {
     animation: pulse;
-    animation-duration: 1s;   
+    animation-duration: 1s;
 }
 
 .cartWidgetNumber {
     color: white;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
-.cartLink {
-    margin-right: 20px;
+
+
+/*Responsive */
+@media (max-width: 700px) {
+
+    .customlogo {
+        width: 15%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .customnavbar li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "teko";
+        border-right: none;
+        height: none;
+        margin-right: 0;
+    }
+
+    .customnavbar li:hover {
+        animation: pulse;
+        animation-duration: 1s;
+    }
+
+    .cartWidgetNumber {
+        color: white;
+        font-size: 20px;
+    }
+
+    .fluidCustom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

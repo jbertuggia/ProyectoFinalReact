@@ -54,3 +54,38 @@
 .custom-card-Link:hover {
     color: rgb(138, 43, 226);
 }
+
+/*Responsive */
+@media (max-width: 700px) {
+ .custom-card {
+    width: 150px;
+    height: 280px;
+}
+
+.custom-card img {
+    width: 100%;
+    height: 140px;
+}
+
+.custom-card h3 {
+    font-size: 17px;
+}
+
+.custom-card p {
+    display:none
+}
+
+.custom-card h5 {
+    font-size: 13px;
+
+}
+
+.LinkContainer {
+    margin: 20px;
+}
+
+.custom-card-Link {
+    font-size: 12px;
+}
+
+  }
