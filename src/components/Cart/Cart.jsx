@@ -41,7 +41,7 @@ const Cart = () => {
                                         <button onClick={() => deleteProductById(productCart.id)}>Eliminar</button>
                                     </div>
                                     <div className="modal-image">
-                                        <img src={productCart.image[0]} alt="" />
+                                        <img className='modalImageCustom' src={productCart.image[0]} alt="" />
                                     </div>
                                 </div>
                             ))

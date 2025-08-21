@@ -27,7 +27,11 @@ const ItemCount = ({ stock, addProductInCart }) => {
         </div>
       </div>
       <div className="button-addProduct">
-        <button className="custom-button" onClick={() => addProductInCart(count)}>Agregar Producto</button>
+        <button className="custom-button" onClick={() => addProductInCart(count)}>
+          <span className="textWeb">Agregar Producto</span>
+          <span className="textMobile">Agregar</span>
+          
+          </button>
       </div>
     </div>
   )
